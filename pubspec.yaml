@@ -1,0 +1,16 @@
+name: ncp_mechanical_pro
+version: 1.0.0+1
+publish_to: 'none'
+description: NCP Mechanical Pro construction management app.
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/ncp_logo.jpg
